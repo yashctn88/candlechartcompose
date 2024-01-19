@@ -48,26 +48,16 @@ dependencies {
     implementation("androidx.compose.material3:material3")
 }
 
-afterEvaluate {
-    android.libraryVariants.forEach { variant ->
-        publishing {
-            publications.create(variant.name, MavenPublication::class) {
-                from(components.findByName(variant.name))
-                groupId = "com.chaintech"
-                artifactId = "candlechartcompose"
-                version = "1.0.0"
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.chaintech"
+            artifactId = "candlechartcompose"
+            version = "1.0.0"
+
+            afterEvaluate {
+                from(components["release"])
             }
         }
     }
 }
-
-//publishing {
-//    publications {
-//        create<MavenPublication>("release") {
-//            from(components["release"])
-//            groupId = "com.example"
-//            artifactId = "mylibrary"
-//            version = "1.0.0"
-//        }
-//    }
-//}
