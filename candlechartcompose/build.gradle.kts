@@ -51,9 +51,9 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.github.yashctn88"
+            groupId = "com.chaintech"
             artifactId = "candlechartcompose"
-            version = "1.0.0"
+            version = "1.0.1"
 
             afterEvaluate {
                 from(components["release"])
