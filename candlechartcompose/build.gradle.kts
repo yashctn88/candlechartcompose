@@ -54,7 +54,6 @@ publishing {
             groupId = "com.chaintech"
             artifactId = "candlechartcompose"
             version = "1.0.1"
-
             afterEvaluate {
                 from(components["release"])
             }
