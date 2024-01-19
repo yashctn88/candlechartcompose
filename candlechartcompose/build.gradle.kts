@@ -51,7 +51,7 @@ dependencies {
 publishing {
     publications {
         register<MavenPublication>("release") {
-            groupId = "com.chaintech"
+            groupId = "com.github.yashctn88"
             artifactId = "candlechartcompose"
             version = "1.0.0"
 
