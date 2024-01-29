@@ -17,7 +17,7 @@ android {
 
     buildTypes {
         release {
-            isMinifyEnabled = false
+            isMinifyEnabled = true
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
                 "proguard-rules.pro"
@@ -53,7 +53,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.chaintech"
             artifactId = "candlechartcompose"
-            version = "1.0.1"
+            version = "1.0.2"
             afterEvaluate {
                 from(components["release"])
             }
