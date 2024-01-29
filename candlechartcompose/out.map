@@ -1,0 +1,211 @@
+# compiler: R8
+# compiler_version: 8.1.68
+# common_typos_disable
+# {"id":"com.android.tools.r8.mapping","version":"2.2"}
+# pg_map_id: 3ec5ae7
+# pg_map_hash: SHA-256 3ec5ae71d230833fdeb242c22c9427e611faacc07317e3c91713f49ea0933945
+com.chaintech.candlechartcompose.extensions.ExtensionsKt -> com.chaintech.candlechartcompose.extensions.ExtensionsKt:
+# {"id":"sourceFile","fileName":"extensions.kt"}
+    1:6:float dpToPx-8Feqmps(float,androidx.compose.runtime.Composer,int):8:13 -> dpToPx-8Feqmps
+    7:7:float dpToPx-8Feqmps(float,androidx.compose.runtime.Composer,int):8:8 -> dpToPx-8Feqmps
+    1:4:float pxToDp(int,androidx.compose.runtime.Composer,int):12:15 -> pxToDp
+    5:5:float pxToDp(int,androidx.compose.runtime.Composer,int):12:12 -> pxToDp
+com.chaintech.candlechartcompose.model.CandlestickData -> com.chaintech.candlechartcompose.model.CandlestickData:
+# {"id":"sourceFile","fileName":"CandleStickModel.kt"}
+    java.lang.String x -> a
+    float open -> b
+    float high -> c
+    float low -> d
+    float close -> e
+    1:6:void <init>(java.lang.String,float,float,float,float):3:8 -> <init>
+    1:1:float getClose():8:8 -> getClose
+    1:1:float getHigh():6:6 -> getHigh
+    1:1:float getLow():7:7 -> getLow
+    1:1:float getOpen():5:5 -> getOpen
+    1:1:java.lang.String getX():4:4 -> getX
+com.chaintech.candlechartcompose.ui.CandleChartKt -> com.chaintech.candlechartcompose.ui.CandleChartKt:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    kotlinx.coroutines.Job displayJob -> a
+    1:1:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):53:53 -> CandlestickChart
+    2:268:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):50:316 -> CandlestickChart
+    269:531:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):56:318 -> CandlestickChart
+    532:532:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):314:314 -> CandlestickChart
+    533:801:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):55:323 -> CandlestickChart
+    802:1069:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):58:325 -> CandlestickChart
+    1070:1070:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):321:321 -> CandlestickChart
+    1071:1343:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):58:330 -> CandlestickChart
+    1344:1617:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):59:332 -> CandlestickChart
+    1618:1618:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):328:328 -> CandlestickChart
+    1619:1897:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):59:337 -> CandlestickChart
+    1898:2177:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):60:339 -> CandlestickChart
+    2178:2178:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):335:335 -> CandlestickChart
+    2179:2463:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):60:344 -> CandlestickChart
+    2464:2749:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):61:346 -> CandlestickChart
+    2750:2750:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):342:342 -> CandlestickChart
+    2751:3039:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):61:349 -> CandlestickChart
+    3040:3328:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):62:350 -> CandlestickChart
+    3329:3333:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):63:67 -> CandlestickChart
+    3334:3645:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):64:375 -> CandlestickChart
+    3646:3669:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):362:385 -> CandlestickChart
+    3670:3987:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):69:386 -> CandlestickChart
+    3988:4300:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):80:392 -> CandlestickChart
+    4301:4612:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):83:394 -> CandlestickChart
+    4613:4613:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):390:390 -> CandlestickChart
+    4614:4933:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):78:397 -> CandlestickChart
+    4934:4937:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):114:117 -> CandlestickChart
+    4938:5248:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):112:422 -> CandlestickChart
+    5249:5272:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):409:432 -> CandlestickChart
+    5273:5587:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):121:435 -> CandlestickChart
+    5588:5903:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):122:437 -> CandlestickChart
+    5904:5904:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):433:433 -> CandlestickChart
+    5905:6225:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):122:442 -> CandlestickChart
+    6226:6547:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):123:444 -> CandlestickChart
+    6548:6548:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):440:440 -> CandlestickChart
+    6549:6875:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):123:449 -> CandlestickChart
+    6876:7203:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):124:451 -> CandlestickChart
+    7204:7204:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):447:447 -> CandlestickChart
+    7205:7213:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):124:132 -> CandlestickChart
+    7214:7539:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):129:454 -> CandlestickChart
+    7540:7542:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):134:136 -> CandlestickChart
+    7543:7645:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):126:228 -> CandlestickChart
+    7646:7883:void CandlestickChart(java.util.List,float,float,float,androidx.compose.runtime.Composer,int,int):227:464 -> CandlestickChart
+    1:13:java.lang.String getMinAndMaxY(java.util.List):252:264 -> a
+    14:41:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):277:304 -> a
+    42:233:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):277:468 -> a
+    234:422:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):282:470 -> a
+    423:423:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):466:466 -> a
+    424:424:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):282:282 -> a
+    425:641:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):281:497 -> a
+    642:665:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):484:507 -> a
+    666:884:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):290:508 -> a
+    885:1103:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):291:509 -> a
+    1104:1104:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):292:292 -> a
+    1105:1350:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):289:534 -> a
+    1351:1374:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):521:544 -> a
+    1375:1625:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):295:545 -> a
+    1626:1901:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):295:570 -> a
+    1902:1925:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):557:580 -> a
+    1926:2225:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):296:595 -> a
+    2226:2226:void DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):304:304 -> a
+    1:1:void access$debounce(kotlin.jvm.functions.Function0) -> access$DrawInfoWindow-M_7yMNQ
+    1:1:void access$DrawInfoWindow-M_7yMNQ(long,com.chaintech.candlechartcompose.model.CandlestickData,androidx.compose.runtime.Composer,int):1 -> access$DrawInfoWindow-M_7yMNQ
+    1:2:void debounce(kotlin.jvm.functions.Function0):308:309 -> access$debounce
+    1:2:void access$debounce(kotlin.jvm.functions.Function0):1 -> access$debounce
+    1:1:void setDisplayJob(kotlinx.coroutines.Job):306:306 -> getDisplayJob
+    1:1:kotlinx.coroutines.Job getDisplayJob():306 -> getDisplayJob
+    1:1:void setDisplayJob(kotlinx.coroutines.Job):306:306 -> setDisplayJob
+com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$1$1 -> a.a:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    float $startPadding -> a
+    androidx.compose.runtime.MutableState $minChartY -> b
+    androidx.compose.runtime.MutableState $yRange -> c
+    void <init>(float,androidx.compose.runtime.MutableState,androidx.compose.runtime.MutableState) -> <init>
+    1:1:java.lang.Object invoke(java.lang.Object):83:83 -> invoke
+    2:89:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$1$1.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):0:87 -> invoke
+    2:89:java.lang.Object invoke(java.lang.Object):83 -> invoke
+    90:101:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$1$1.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):84:95 -> invoke
+    90:101:java.lang.Object invoke(java.lang.Object):83 -> invoke
+    102:117:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$1$1.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):92:107 -> invoke
+    102:117:java.lang.Object invoke(java.lang.Object):83 -> invoke
+    118:118:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$1$1.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):99:99 -> invoke
+    118:118:java.lang.Object invoke(java.lang.Object):83 -> invoke
+    119:119:java.lang.Object invoke(java.lang.Object):83:83 -> invoke
+com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$1 -> a.d:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    int label -> a
+    java.lang.Object L$0 -> b
+    androidx.compose.runtime.MutableState $infoWindowVisible -> c
+    androidx.compose.runtime.MutableState $selectedCandleOffset -> d
+    java.util.ArrayList $listCandleBounds -> e
+    androidx.compose.runtime.MutableIntState $selectedCandleIndex -> f
+    void <init>(androidx.compose.runtime.MutableState,androidx.compose.runtime.MutableState,java.util.ArrayList,androidx.compose.runtime.MutableIntState,kotlin.coroutines.Continuation) -> <init>
+    kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation) -> create
+    1:1:java.lang.Object com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$1.invoke(androidx.compose.ui.input.pointer.PointerInputScope,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    1:1:java.lang.Object invokeSuspend(java.lang.Object):65535:65535 -> invokeSuspend
+    2:16:java.lang.Object invokeSuspend(java.lang.Object):137:151 -> invokeSuspend
+com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$1$1 -> a.c:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    androidx.compose.runtime.MutableState $infoWindowVisible -> a
+    androidx.compose.runtime.MutableState $selectedCandleOffset -> b
+    java.util.ArrayList $listCandleBounds -> c
+    androidx.compose.runtime.MutableIntState $selectedCandleIndex -> d
+    void <init>(androidx.compose.runtime.MutableState,androidx.compose.runtime.MutableState,java.util.ArrayList,androidx.compose.runtime.MutableIntState) -> <init>
+    1:1:java.lang.Object invoke(java.lang.Object):137:137 -> invoke
+    2:10:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$1$1.invoke-k-4lQ0M(long):138:146 -> invoke
+    2:10:java.lang.Object invoke(java.lang.Object):137 -> invoke
+    11:11:java.lang.Object invoke(java.lang.Object):137:137 -> invoke
+com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$1$1$1 -> a.b:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    androidx.compose.runtime.MutableState $infoWindowVisible -> a
+    void <init>(androidx.compose.runtime.MutableState) -> <init>
+    1:1:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$1$1$1.invoke():141:141 -> invoke
+    1:1:java.lang.Object invoke():140 -> invoke
+    2:2:java.lang.Object invoke():140:140 -> invoke
+com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$2 -> a.e:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    float $totalWidth -> a
+    java.util.List $data -> b
+    float $candleWidth -> c
+    float $totalCandleWidth -> d
+    androidx.compose.runtime.MutableState $minChartY -> e
+    androidx.compose.runtime.MutableState $yRange -> f
+    java.util.ArrayList $listCandleBounds -> g
+    void <init>(float,java.util.List,float,float,androidx.compose.runtime.MutableState,androidx.compose.runtime.MutableState,java.util.ArrayList) -> <init>
+    1:1:java.lang.Object invoke(java.lang.Object):126:126 -> invoke
+    2:159:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$2.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):0:157 -> invoke
+    2:159:java.lang.Object invoke(java.lang.Object):126 -> invoke
+    160:172:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$2.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):154:166 -> invoke
+    160:172:java.lang.Object invoke(java.lang.Object):126 -> invoke
+    173:196:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$2.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):163:186 -> invoke
+    173:196:java.lang.Object invoke(java.lang.Object):126 -> invoke
+    197:218:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$2.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):183:204 -> invoke
+    197:218:java.lang.Object invoke(java.lang.Object):126 -> invoke
+    219:228:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$2.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):201:210 -> invoke
+    219:228:java.lang.Object invoke(java.lang.Object):126 -> invoke
+    229:238:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$2.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):207:216 -> invoke
+    229:238:java.lang.Object invoke(java.lang.Object):126 -> invoke
+    239:248:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$1$2$2.invoke(androidx.compose.ui.graphics.drawscope.DrawScope):213:222 -> invoke
+    239:248:java.lang.Object invoke(java.lang.Object):126 -> invoke
+    249:249:java.lang.Object invoke(java.lang.Object):126:126 -> invoke
+com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$2 -> a.f:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    java.util.List $data -> a
+    float $minY -> b
+    float $maxY -> c
+    float $candleWidth -> d
+    int $$changed -> e
+    int $$default -> f
+    void <init>(java.util.List,float,float,float,int,int) -> <init>
+    1:1:void com.chaintech.candlechartcompose.ui.CandleChartKt$CandlestickChart$2.invoke(androidx.compose.runtime.Composer,int):0:0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    2:2:java.lang.Object invoke(java.lang.Object,java.lang.Object):0:0 -> invoke
+com.chaintech.candlechartcompose.ui.CandleChartKt$DrawInfoWindow$1$1 -> a.g:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    float $windowX -> a
+    float $windowY -> b
+    void <init>(float,float) -> <init>
+    1:1:java.lang.Object invoke(java.lang.Object):282:282 -> invoke
+    2:287:long com.chaintech.candlechartcompose.ui.CandleChartKt$DrawInfoWindow$1$1.invoke-Bjo55l4(androidx.compose.ui.unit.Density):0:285 -> invoke
+    2:287:java.lang.Object invoke(java.lang.Object):282 -> invoke
+    288:288:long com.chaintech.candlechartcompose.ui.CandleChartKt$DrawInfoWindow$1$1.invoke-Bjo55l4(androidx.compose.ui.unit.Density):283:283 -> invoke
+    288:288:java.lang.Object invoke(java.lang.Object):282 -> invoke
+    289:289:java.lang.Object invoke(java.lang.Object):282:282 -> invoke
+com.chaintech.candlechartcompose.ui.CandleChartKt$DrawInfoWindow$3 -> a.h:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    long $position -> a
+    com.chaintech.candlechartcompose.model.CandlestickData $candleData -> b
+    int $$changed -> c
+    void <init>(long,com.chaintech.candlechartcompose.model.CandlestickData,int) -> <init>
+    1:1:void com.chaintech.candlechartcompose.ui.CandleChartKt$DrawInfoWindow$3.invoke(androidx.compose.runtime.Composer,int):0:0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    2:2:java.lang.Object invoke(java.lang.Object,java.lang.Object):0:0 -> invoke
+com.chaintech.candlechartcompose.ui.CandleChartKt$debounce$1 -> a.i:
+# {"id":"sourceFile","fileName":"CandleChart.kt"}
+    int label -> a
+    kotlin.jvm.functions.Function0 $onChange -> b
+    void <init>(kotlin.jvm.functions.Function0,kotlin.coroutines.Continuation) -> <init>
+    kotlin.coroutines.Continuation create(java.lang.Object,kotlin.coroutines.Continuation) -> create
+    1:1:java.lang.Object com.chaintech.candlechartcompose.ui.CandleChartKt$debounce$1.invoke(kotlinx.coroutines.CoroutineScope,kotlin.coroutines.Continuation):0:0 -> invoke
+    1:1:java.lang.Object invoke(java.lang.Object,java.lang.Object):0 -> invoke
+    1:4:java.lang.Object invokeSuspend(java.lang.Object):309:312 -> invokeSuspend

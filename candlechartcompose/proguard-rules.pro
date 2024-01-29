@@ -1,23 +1,27 @@
-# Add project specific ProGuard rules here.
-# You can control the set of applied configuration files using the
-# proguardFiles setting in build.gradle.
 #
-# For more details, see
-#   http://developer.android.com/guide/developing/tools/proguard.html
+# This ProGuard configuration file illustrates how to process a program
+# library, such that it remains usable as a library.
+# Usage:
+#     java -jar proguard.jar @library.pro
+#
 
-# If your project uses WebView with JS, uncomment the following
-# and specify the fully qualified class name to the JavaScript interface
-# class:
-#-keepclassmembers class fqcn.of.javascript.interface.for.webview {
-#   public *;
-#}
+# Specify the input jars, output jars, and library jars.
+# In this case, the input jar is the program library that we want to process.
 
-# Uncomment this to preserve the line number information for
-# debugging stack traces.
-#-keepattributes SourceFile,LineNumberTable
+#-injars  in.jar
+#-outjars out.jar
+#
+#-libraryjars  <java.home>/lib/rt.jar
+
+# Save the obfuscation mapping to a file, so we can de-obfuscate any stack
+# traces later on. Keep a fixed source file attribute and all line number
+# tables to get line numbers in the stack traces.
+# You can comment this out if you're not interested in stack traces.
+-printmapping out.map
 -keepparameternames
 -renamesourcefileattribute SourceFile
--keepattributes Exceptions,InnerClasses,Signature,Deprecated,SourceFile,LineNumberTable,EnclosingMethod
+-keepattributes Exceptions,InnerClasses,Signature,Deprecated,
+                SourceFile,LineNumberTable,EnclosingMethod
 
 # Preserve all annotations.
 
@@ -65,6 +69,10 @@
     java.lang.Object writeReplace();
     java.lang.Object readResolve();
 }
-# If you keep the line number information, uncomment this to
-# hide the original source file name.
-#-renamesourcefileattribute SourceFile
+
+# Your library may contain more items that need to be preserved; 
+# typically classes that are dynamically created using Class.forName:
+
+# -keep public class mypackage.MyClass
+# -keep public interface mypackage.MyInterface
+# -keep public class * implements mypackage.MyInterface

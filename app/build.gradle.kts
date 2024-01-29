@@ -54,6 +54,6 @@ dependencies {
     implementation("androidx.compose.material3:material3")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-    implementation(project(":candlechartcompose"))
-//    implementation("com.chaintech:candlechartcompose:1.0.2")
+//    implementation(project(":candlechartcompose"))
+    implementation("com.chaintech:candlechartcompose:1.0.3")
 }
