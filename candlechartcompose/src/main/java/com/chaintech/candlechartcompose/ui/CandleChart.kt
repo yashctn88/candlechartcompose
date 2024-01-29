@@ -234,7 +234,7 @@ public fun CandlestickChart(
     }
 }
 
-fun getVisibleCandles(listCandleBounds: List<RectF>, visibleRect: RectF, data: List<CandlestickData>): List<CandlestickData> {
+private fun getVisibleCandles(listCandleBounds: List<RectF>, visibleRect: RectF, data: List<CandlestickData>): List<CandlestickData> {
     val visibleCandles = mutableListOf<CandlestickData>()
 
     for ((index, candleBounds) in listCandleBounds.withIndex()) {
@@ -246,7 +246,7 @@ fun getVisibleCandles(listCandleBounds: List<RectF>, visibleRect: RectF, data: L
     return visibleCandles
 }
 
-fun getMinAndMaxY(data: List<CandlestickData>): String {
+private fun getMinAndMaxY(data: List<CandlestickData>): String {
     var minY = 0f
     var maxY = 0f
     if(data.isNotEmpty()) {
@@ -264,7 +264,7 @@ fun getMinAndMaxY(data: List<CandlestickData>): String {
     return "$minY,$maxY"
 }
 
-fun getVisibleRect(scrollState: ScrollState, maxWidth: Float, chartHeight: Float): RectF {
+private fun getVisibleRect(scrollState: ScrollState, maxWidth: Float, chartHeight: Float): RectF {
     return RectF(
         scrollState.value.toFloat(),
         0f,
@@ -274,7 +274,7 @@ fun getVisibleRect(scrollState: ScrollState, maxWidth: Float, chartHeight: Float
 }
 
 @Composable
-fun DrawInfoWindow(position: Offset, candleData: CandlestickData) {
+private fun DrawInfoWindow(position: Offset, candleData: CandlestickData) {
     val windowX = position.x + 20f // Adjust as needed`
     val windowY = position.y + 20f // Adjust as needed
     Log.e("Offset", "$windowX--$windowY")
@@ -304,7 +304,7 @@ fun DrawInfoWindow(position: Offset, candleData: CandlestickData) {
 }
 
 var displayJob: Job? = null
-fun debounce(onChange: () -> Unit) {
+private fun debounce(onChange: () -> Unit) {
     displayJob?.cancel()
     displayJob = CoroutineScope(Dispatchers.Main).launch {
         delay(3500)
