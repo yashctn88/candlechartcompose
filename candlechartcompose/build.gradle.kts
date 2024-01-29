@@ -54,7 +54,7 @@ publishing {
         register<MavenPublication>("release") {
             groupId = "com.github.yashctn88"
             artifactId = "candlechartcompose"
-            version = "1.0.3"
+            version = "v1.0.6"
             afterEvaluate {
                 from(components["release"])
             }
